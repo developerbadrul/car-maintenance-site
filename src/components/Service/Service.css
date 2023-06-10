@@ -1,0 +1,28 @@
+.single-service{
+    width: 300px;
+    /* border: 1px solid skyblue; */
+    background-color: rgb(95, 136, 250);
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.single-service img{
+    width: 96%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .single-service{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px){
+    .single-service{
+        width: 100%;
+    }
+}
