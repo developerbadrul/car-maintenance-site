@@ -19,7 +19,7 @@ const experts = [
 
 const Exparts = () => {
     return (
-        <div>
+        <div className='container'>
             <h2 className='text-primary text-center py-3'>Our Exparts</h2>
             <div className='row'>
             {
